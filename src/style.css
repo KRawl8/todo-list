@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Header ------------------------------------------------------------ */
+
+.header {
+    background-color: rgb(58, 58, 58);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.header > * {
+    margin-left: 20px;
+}
+
+.todo-icon {
+    background-image: url(images/check.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+/* Nav --------------------------------------------------------------- */
+
+.nav {
+    background-color: rgb(211, 211, 211);
+    height: 85%;
+    width: 20vw;
+    padding: 30px 60px 30px 65px;
+}
+
+.nav ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.nav li p {
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+}
+
+.timed-todo {
+    margin: 25px 15px 30px 0px;
+}
+
+.today-icon {
+    background-image: url(images/calendar-today.png);
+}
+
+.week-icon {
+    background-image: url(images/calendar-week.png);
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.project {
+    margin: 25px 15px 30px 25px;
+}
+
+.project-icon {
+    background-image: url(images/list-box-outline.png);
+}
+
+.add-project-button {
+    height: 35px;
+    width: 70%;
+    margin: 10px 20px 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#new-project-name {
+    height: 40px;
+    width: 90%;
+    margin: 10px 0px 6px 0px;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+.add-button, .cancel-button {
+    height: 36px;
+    width: 40%;
+    margin: 5px;
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.add-button {
+    background-color: rgb(106, 168, 12);
+}
+
+.add-button:hover {
+    background-color: rgb(149, 228, 30);
+}
+
+.cancel-button {
+    background-color: rgb(184, 42, 42);
+}
+
+.cancel-button:hover {
+    background-color: rgb(158, 83, 83);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Main -------------------------------------------------------------- */

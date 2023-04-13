@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bundle.js" defer></script>
+    <title>Todo-List</title>
+</head>
+<body>
+    <div class="header">
+        <div class="todo-icon"></div>
+        <h1>Todo List</h1>
+    </div>
+    <div class="nav">
+        <div class="timed-todos">
+            <ul>
+                <li class="timed-todo"><div class="today-icon nav-icon"></div> <p>Today</p></li>
+                <li class="timed-todo"><div class="week-icon nav-icon"></div> <p>This Week</p></li>
+            </ul>
+        </div>
+        <div class="projects">
+            <h3>Projects</h3>
+            <ul>
+                <li class="project"><div class="project-icon nav-icon"></div> <p>Project 1</p></li>
+                <li class="project"><div class="project-icon nav-icon"></div> <p>Project 2</p></li>
+            </ul>
+            <button class="add-project-button">Add Project</button> 
+            <div class="new-project-area hidden">
+                <input type="text" id="new-project-name">
+                <button class="add-button">Add</button>
+                <button class="cancel-button">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="main"></div>
+</body>
+</html>
