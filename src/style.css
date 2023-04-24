@@ -94,7 +94,7 @@ h3 {
     background-image: url(images/list-box-outline.png);
 }
 
-.add-project-button {
+.new-project-button {
     height: 35px;
     width: 70%;
     margin: 10px 20px 20px 20px;
@@ -132,7 +132,7 @@ h3 {
 }
 
 .cancel-button:hover {
-    background-color: rgb(158, 83, 83);
+    background-color: rgb(143, 28, 28);
 }
 
 .hidden {
